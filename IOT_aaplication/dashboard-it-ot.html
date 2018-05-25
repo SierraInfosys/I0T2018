@@ -1,0 +1,334 @@
+<!DOCTYPE html >
+<html lang="en">
+
+<head>
+    <!-- Page Title-->
+    <title> IT / OT Convergence </title>
+    <!-- Page Meta-->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- Browser Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/icon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="resources/icon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="resources/icon/favicon-16x16.png" sizes="16x16" />
+    <link rel="manifest" href="resources/icon/manifest.json" />
+    <link rel="mask-icon" href="resources/icon/safari-pinned-tab.svg" color="#ff1643" />
+    <link rel="shortcut icon" href="resources/icon/favicon.ico" />
+    <meta name="msapplication-config" content="resources/icon/browserconfig.xml" />
+    <meta name="theme-color" content="#ff1643" />
+    <!-- Facebook OpenGraph-->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="" />
+    <!-- Theme-->
+    <script src="vendors/cookie/cookie.js" type="text/javascript"></script>
+    <script src="resources/js/themes/base.js" type="text/javascript"></script>
+    <!--Displaying-Data-->
+    <script src="https://code.angularjs.org/1.6.7/angular.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+    <script src="http://www.chartjs.org/samples/latest/utils.js" type="text/javascript"></script>
+    <script src="http://cdn.jsdelivr.net/angular.chartjs/latest/angular-chart.min.js" type="text/javascript"></script>
+    <!-- Loader-->
+    <link href="resources/css/loader/loader.css" rel="stylesheet" type="text/css" />
+    <!-- Stylesheets-->
+</head>
+
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage">
+    <!-- Loading Spinner-->
+    <div class="loader-wrapper">
+        <div class="loader"><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span><span class="loader-block"></span></div>
+    </div>
+    <!-- /Loading Spinner-->
+    <!-- Navbar-->
+    <div class="navbar -dark -fixed-top -has-6-items">
+        <div class="navbar-wrapper">
+            <div class="sidebar-toggle d-lg-none d-none d-sm-block" id="sidebar-toggle-navbar-brand" data-target="#sidebar"><a href="javascript:void(0);"><i class="fa fa-bars"> </i></a></div>
+            <a class="navbar-brand d-none d-sm-block" href="dashboard-it-ot.html">
+                <h1>DIGITAL ASSET MANAGEMENT </h1>
+            </a>
+        </div>
+    </div>
+    <!-- /Navbar-->
+    <!-- Left Sidebar -->
+    <div class="sidebar -dark -left -slideable" id="sidebar">
+        <div class="scrollable">
+            <div class="scrollable-content">
+                <div class="sidebar-wrapper">
+                    <ul class="sidebar-menu metismenu">
+                        <li class="sidebar-heading"> </li>
+                        <li><a href="#"> <i></i><span> OT / IT Convergence</span></a></li>
+                        <li class="-active active"><a href="javascript:void(0);"> <i class="pe pe-mail"></i><span> OT</span><span class="fa arrow"></span></a>
+                            <ul>
+                                <li class="-active active"><a href="dashboard-it-ot.html"> <i></i><span> DEVICE 1</span></a></li>
+                                <li><a href="dashboard-it-ot.html"> <i></i><span> DEVICE 2</span></a></li>
+                                <li><a href="dashboard-it-ot.html"> <i></i><span> DEVICE 3</span></a></li>
+                                <li><a href="dashboard-it-ot.html"> <i></i><span> DEVICE 4</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="-active active"><a href="javascript:void(0);"> <i class="pe pe-mail"></i><span> IT</span><span class="fa arrow"></span></a>
+                            <ul>
+                                <li><a href="dashboard-ot-ot1.html"> <i></i><span> DEVICE 1</span></a></li>
+                            </ul>
+                        </li>
+                        <li id="sidebar-main-purchase"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Left Sidebar-->
+    <!-- Right Sidebar -->
+   
+        <div class="sidebar-wrapper scrollable">
+            <div class="sidebar-content scrollable-content">
+                
+                
+                    
+                    </div>
+                </div>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Right Sidebar-->
+    <!-- Content-->
+    <div class="content -dark -with-left-sidebar -collapsible">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col -lg-12 -xl-8">
+                    <div class="panel -light">
+                        <div class="panel-heading">
+                            <ul class="panel-actions">
+                                <li> <a href="#"><i class="fa fa-refresh"> </i></a></li>
+                                <li><a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><i class="fa fa-bars"> </i></a>
+                                    <div class="dropdown-menu -right -dark"><a class="dropdown-item"> <i class="fa fa-cloud"> </i>Action</a><a class="dropdown-item "><i class="fa fa-refresh"> </i>Update</a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item"> <i class="fa fa-cog"> </i>Settings  </a></div>
+                                </li>
+                            </ul>
+                            <h4>Reports</h4>
+                        </div>
+                        <!--<div class="panel-body">-->
+                            <!--<div class="chart -md" id="chart-project-progress"></div>-->
+                        <!--</div>-->
+                         
+                        <div ng-app="myApp" ng-controller="myCtrl">
+                            <div class="panel-body">
+                             <script>
+window.onload = function () {
+
+var dps = []; // dataPoints
+var chart = new CanvasJS.Chart("chartContainer", {
+	title :{
+		text: ""
+	},
+	axisY: {
+		includeZero: true
+	},      
+	data: [{
+		type: "line",
+		dataPoints: dps
+	}]
+});
+
+var xVal = 0;
+var yVal = 60; 
+var updateInterval = 2000;
+var dataLength = 20; // number of dataPoints visible at any point
+    
+var updateChart = function (count) {
+
+	count = count || 1;
+
+	for (var j = 0; j < count; j++) {
+		yVal = yVal +  Math.round(5.46 + Math.random() *(-5-5));
+		dps.push({
+			x: xVal,
+			y: yVal
+		});
+		xVal++;
+	}
+
+	if (dps.length > dataLength) {
+		dps.shift();
+	}
+
+	chart.render();
+};
+
+updateChart(dataLength);
+setInterval(function(){updateChart()}, updateInterval);
+
+}
+</script>
+                                <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col -lg-6 -xl-4">
+                    <div class="panel -dark">
+                        <div class="panel-heading">
+                            <h4>Wireframe</h4>
+                        </div>
+                        <div class="panel-body">
+                            <img src="3d-pipe-system-oil-.png" alt="Mountain View">
+                        </div>
+                    </div>
+                    <div class="col -md-0">
+                   
+                       
+                        <!-- Nav Tabs-->
+                        <ul class="nav nav-tabs -dark" role="tablist">
+                            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#home-tab-icon-text" role="tab"> </i> Pressure</a></li>
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#profile-tab-icon-text" role="tab">  </i> Temprature</a></li>
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#messages-tab-icon-text" role="tab">  </i> Volt</a></li>
+                            
+                        </ul>
+                        <!-- /Nav Tabs-->
+<br>
+                        <div class="panel-body">
+                            <!-- Tab Content Panes-->
+                            <div class="tab-content">
+                                <!-- Tab Pane-->
+                                <div class="tab-pane active" id="home-tab-icon-text" role="tabpanel">
+                                    <h4>58</h4>
+                                    
+                                </div>
+                                <!-- /Tab Pane-->
+                                <!-- Tab Pane-->
+                                <div class="tab-pane" id="profile-tab-icon-text" role="tabpanel">
+                                    <h4>78</h4>
+                                    
+                                </div>
+                                <!-- /Tab Pane-->
+                                <!-- Tab Pane-->
+                                <div class="tab-pane" id="messages-tab-icon-text" role="tabpanel">
+                                    <h4>48</h4>
+                                    
+                                </div>
+                                <!-- /Tab Pane-->
+                               
+                            </div>
+                            <!-- /Tab Content Panes-->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col -lg-6 -xl-6">
+                    <div class="panel -dark -bordered-bottom -bordered-info -collapsible">
+                        <div class="panel-heading -info">
+                            <h4>Contextual Links</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>| link 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col -lg-12 -xl-6">
+                    <div class="panel -dark">
+                        <div class="panel-heading">
+                            <h4>Recommendation and alerts</h4>
+                        </div>
+                        <div class="panel-body">
+                            <!-- Alert-->
+                            <div class="alert -success -contrasted">
+                                <div class="alert-icon "><i class="fa fa-check-circle"></i></div><strong> Success! </strong>This is a demo alert!</div>
+                            <!-- Alert-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Content-->
+    <!-- Scripts-->
+    <script src="bundles/dashboard.bundle.js" type="text/javascript"></script>
+    <script src="bundles/dashboard-it-ot.bundle.js" type="text/javascript"></script>
+    <script type="text/javascript" src="fusioncharts/js/fusioncharts.js"></script>
+
+    <script>
+        
+Highcharts.setOptions({
+  global: {
+    useUTC: false
+  }
+});
+
+Highcharts.chart('container', {
+  chart: {
+    type: 'spline',
+    animation: Highcharts.svg, // don't animate in old IE
+    marginRight: 10,
+    events: {
+      load: function () {
+
+        // set up the updating of the chart each second
+        var series = this.series[0];
+        setInterval(function () {
+          var x = (new Date()).getTime(), // current time
+            y = Math.random();
+          series.addPoint([x, y], true, true);
+        }, 1000);
+      }
+    }
+  },
+  title: {
+    text: 'Live random data'
+  },
+  xAxis: {
+    type: 'datetime',
+    tickPixelInterval: 150
+  },
+  yAxis: {
+    title: {
+      text: 'Value'
+    },
+    plotLines: [{
+      value: 0,
+      width: 1,
+      color: '#808080'
+    }]
+  },
+  tooltip: {
+    formatter: function () {
+      return '<b>' + this.series.name + '</b><br/>' +
+        Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x) + '<br/>' +
+        Highcharts.numberFormat(this.y, 2);
+    }
+  },
+  legend: {
+    enabled: false
+  },
+  exporting: {
+    enabled: false
+  },
+  series: [{
+    name: 'Random data',
+    data: (function () {
+      // generate an array of random data
+      var data = [],
+        time = (new Date()).getTime(),
+        i;
+
+      for (i = -19; i <= 0; i += 1) {
+        data.push({
+          x: time + i * 1000,
+          y: Math.random()
+        });
+      }
+      return data;
+    }())
+  }]
+});
+
+</body>
+</html>
